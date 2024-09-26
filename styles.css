@@ -83,6 +83,39 @@ h1, h2, h3, h4, p {
     border-bottom: #fafafa solid 10px;
 }
 
+.assignment {
+    margin-bottom: 75px;
+}
+
+.assignment img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 10%;
+    height: 300px;
+    width: 500px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+#next_image, #previous_image {
+    background-color: #3c096c;
+    color:#ffffff;
+    border-radius: 28px;
+    font-family: "Prata", serif; 
+    font-weight: 400; 
+    font-style: normal;
+    font-size: 20px;  
+    padding: 10px;
+    box-shadow: 5px 4px 10px #5a189a;
+    border: none;
+}
+
 .header h1 {
     background-color: #5a189a;
     color: #ffffff;
